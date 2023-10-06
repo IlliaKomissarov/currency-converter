@@ -1,0 +1,20 @@
+<div class="currency-container">
+  <h2 class="currency-title">Exchange rate:</h2>
+  <ul class="currency-list">
+    <li class="currency-item">
+      <strong>USD:</strong>
+      {{ exchangeRates?.USD | number : "1.2-2" }} UAH
+      <span class="price-label"
+        >(1 USD = {{ priceForOneUSD | number : "1.2-2" }} UAH)</span
+      >
+    </li>
+    <li class="currency-item">
+      <strong>EUR:</strong>
+      {{ exchangeRates?.EUR | number : "1.2-2" }} UAH
+      <span class="price-label"
+        >(1 EUR = {{ priceForOneEUR | number : "1.2-2" }} UAH)</span
+      >
+    </li>
+    <li class="currency-item"><strong>UAH:</strong> 1 UAH</li>
+  </ul>
+</div>

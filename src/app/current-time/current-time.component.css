@@ -1,0 +1,9 @@
+.current-time {
+  font-size: 20px;
+  color: #333; 
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); 
+  padding: 8px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 16px;
+}
